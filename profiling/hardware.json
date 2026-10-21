@@ -1,0 +1,9 @@
+{
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "python": "3.12.14",
+  "logical_cpus": 12,
+  "ram_bytes": 38654705664,
+  "rss_definition": "Sum of RSS of the client process and all descendant processes; 10 ms polling. Shared pages can be counted more than once. RustFS is excluded.",
+  "cache": "OS and RustFS page caches warm; new client process per trial; rotated case order."
+}

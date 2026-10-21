@@ -1,0 +1,16 @@
+.venv/
+.duckdb_extensions/
+__pycache__/
+.env
+credentials*.json
+*.duckdb*
+scratch/
+runtime/
+*.csv
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+evidence/
+results/

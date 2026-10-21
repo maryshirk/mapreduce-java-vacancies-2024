@@ -1,0 +1,10 @@
+{
+  "variant": "3. Программист, разработчик на Java",
+  "title_regex": "(^|[^a-z])java([^a-z]|$)",
+  "skill_any": ["java"],
+  "roles": ["Программист, разработчик"],
+  "sql_where": "role = 'Программист, разработчик' AND (regexp_matches(coalesce(name, ''), '(^|[^a-z])java([^a-z]|$)', 'i') OR list_contains(list_transform(string_split(coalesce(key_skills, ''), ';'), x -> lower(trim(x, chr(32)||chr(9)||chr(10)||chr(13)))), 'java'))",
+  "bucket": "hh-lake",
+  "key": "raw/it_vacancies_2024.csv",
+  "regions": ["Москва", "Санкт-Петербург", "Екатеринбург"]
+}
